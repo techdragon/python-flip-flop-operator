@@ -1,7 +1,7 @@
-from infix import or_infix
 import inspect
 import logging
 
+from infix import or_infix
 
 LOG = logging.getLogger(__name__)
 
