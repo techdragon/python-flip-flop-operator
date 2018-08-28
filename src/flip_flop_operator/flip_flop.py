@@ -1,5 +1,5 @@
-import inspect
 from infix import or_infix
+import inspect
 import logging
 
 
