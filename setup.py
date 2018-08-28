@@ -68,6 +68,7 @@ setup(
     ],
     tests_require=[
         'pytest',
+        'tox',
     ],
     extras_require={
         # eg:
