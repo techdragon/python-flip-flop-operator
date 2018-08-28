@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from flip_flop_operator.flip_flop import flip_flop
 from flip_flop_operator.flip_flop import ꓺ
 
