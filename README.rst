@@ -49,9 +49,9 @@ Overview
     :alt: PyPI Package latest release
     :target: https://pypi.python.org/pypi/flip-flop-operator
 
-.. |commits-since| image:: https://img.shields.io/github/commits-since/techdragon/python-flip-flop-operator/v0.1.0.svg
+.. |commits-since| image:: https://img.shields.io/github/commits-since/techdragon/python-flip-flop-operator/v0.2.0.svg
     :alt: Commits since latest release
-    :target: https://github.com/techdragon/python-flip-flop-operator/compare/v0.1.0...master
+    :target: https://github.com/techdragon/python-flip-flop-operator/compare/v0.2.0...master
 
 .. |wheel| image:: https://img.shields.io/pypi/wheel/flip-flop-operator.svg
     :alt: PyPI Wheel
