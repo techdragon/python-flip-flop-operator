@@ -24,18 +24,18 @@ def flip_flop(condition_one, condition_two):
         str(frame.f_back.f_back.f_code.co_name),
         str(frame.f_back.f_back.f_lineno),
     ])
-    LOG.debug(f'Created unique function identifier. {unique_func_identifier}')
+    LOG.debug('Created unique function identifier. {}'.format(unique_func_identifier))
     if unique_func_identifier not in globals():
         globals()[unique_func_identifier] = False
     if condition_one and not globals()[unique_func_identifier]:
         globals()[unique_func_identifier] = True
-        LOG.debug(f"{unique_func_identifier} flipped on.")
+        LOG.debug('{} flipped on.'.format(unique_func_identifier))
         return False
     elif not condition_one and not condition_two and globals()[unique_func_identifier]:
         return True
     elif not condition_one and condition_two and globals()[unique_func_identifier]:
         globals()[unique_func_identifier] = False
-        LOG.debug(f"{unique_func_identifier} flipped off.")
+        LOG.debug('{} flipped off.'.format(unique_func_identifier))
         return False
     elif not condition_one and not condition_two and not globals()[unique_func_identifier]:
         return False
