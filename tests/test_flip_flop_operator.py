@@ -7,4 +7,3 @@ def test_flip_flop_basic_functionality():
             assert 5 <= i <= 9
         if (i == 12) | flip_flop | (i == 15):
             assert 13 <= i <= 14
-

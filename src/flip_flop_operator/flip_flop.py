@@ -42,4 +42,5 @@ def flip_flop(condition_one, condition_two):
         return False
 
 
-ꓺ = flip_flop
+# TODO: This doesnt work in python 2. Find a way to fix that.
+# ꓺ = flip_flop
