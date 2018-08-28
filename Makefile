@@ -9,11 +9,11 @@ check:
 
 .PHONY: sdist
 sdist:
-	python setup.py clean --all sdist bdist_wheel
+	python setup.py clean --all sdist
 
 .PHONY: upload
 upload:
-	twine upload --skip-existing dist/*.whl dist/*.gz dist/*.zip
+	twine upload --skip-existing dist/*.gz
 
 .PHONY: all
 all: clean check sdist upload
