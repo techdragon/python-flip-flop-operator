@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/flip_flop_operator
+   */site-packages/flip_flop_operator
+
+[run]
+branch = true
+source =
+    flip_flop_operator
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
